@@ -53,9 +53,7 @@ def led_off():
     board.digital[z].write(0)
     board.digital[x].write(0)
 
-
-
-
+# Alteração na linha 56 
 
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[0]  # YOLOv5 root directory
